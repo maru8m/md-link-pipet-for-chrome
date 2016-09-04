@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "MD Link Pipet",
+  "version": "0.1",
+  "description": "md の書式でハイパーリンクをクリップボードにコピーします。",
+
+  "icons": {
+    "16": "img/icon16.png",
+    "48": "img/icon48.png",
+    "128": "img/icon128.png"
+  },
+
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": ["contextMenus","tabs","clipboardRead"]
+}
